@@ -13,7 +13,7 @@ repo init -u https://source.codeaurora.org/external/imx/imx-manifest -b imx-linu
 repo sync
 
 cd ~/yocto/build_515/sources
-git clone git@github.com:NXPHoverGames/NavQPlus.git -b lf5.15.32_2.0.0-ros2 meta-nxp-hovergames
+git clone https://github.com/NXPHoverGames/NavQPlus.git -b lf5.15.32_2.0.0-ros2 meta-nxp-hovergames
 cd ~/yocto/build_515
 
 DISTRO=imx-desktop-xwayland MACHINE=imx8mpnavq EULA=yes source ./imx-setup-desktop.sh -b build
